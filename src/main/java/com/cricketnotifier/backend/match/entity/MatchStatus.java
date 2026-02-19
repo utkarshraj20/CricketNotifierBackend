@@ -1,4 +1,7 @@
 package com.cricketnotifier.backend.match.entity;
 
-public class MatchStatus {
+public enum MatchStatus {
+    UPCOMING,
+    LIVE,
+    COMPLETED
 }
